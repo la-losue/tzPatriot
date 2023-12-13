@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header-block">
+            <ul class="header_list">
+                <li class="header_item list-hover">
+                    Главная
+                </li>
+                <li class="header_item header-slash">
+                    /
+                </li>
+                <li class="header_item list-hover">
+                    Каталог
+                </li>
+                <li class="header_item header-slash">
+                    /
+                </li>
+                <li class="header_item list-hover">
+                    Столы Generic Comfort
+                </li>
+                <li class="header_item header-slash">
+                    /
+                </li>
+                <li class="header_item list-hover last-item">
+                    Active2/N
+                </li>
+            </ul>
+            <div class="header-logo">
+                <a href="#">
+                    <img class="header-logo_img" src="https://generic-comfort.ru/wa-data/public/site/themes/GC/img/777.jpg" alt="logo">
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="product-page">
+            <div class="product-title">
+                    <h1 style="font-family: 'Russo One', sans-serif; font-size: 46px;">GENERIC COMFORT</h1>
+                    <ul class="title-desc">
+                        <li class="title-desc_item">код: 2312</li>
+                        <li class="title-desc_item cursor">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                                4 отзыва
+                            </div>
+                              
+                        </li>
+                        <li class="title-desc_item cursor">
+                            <svg class="cursor-svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                        </li>
+                        <li class="title-desc_item cursor">
+                            <svg class="cursor-svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M160-160v-320h160v320H160Zm240 0v-640h160v640H400Zm240 0v-440h160v440H640Z"/></svg>
+                        </li>
+                    </ul>
+            </div>   
+            <div class="slider-block">
+                <div class="slider-container">
+                    <div class="slider" id="slider">
+                      <div class="slide" id="slide1">
+                        <img src="img/table1.jpg" alt="Slide 1">
+                      </div>
+                      <div class="slide" id="slide2">
+                        <img src="img/table2.jpg" alt="Slide 2">
+                      </div>
+                      <div class="slide" id="slide3">
+                        <img src="img/table3.jpg" alt="Slide 3">
+                      </div>
+                      <div class="slide" id="slide4">
+                        <img src="img/table4.jpg" alt="Slide 4">
+                      </div>
+                    </div>
+                    <div class="prev" onclick="prevSlide()">&#10094;</div>
+                    <div class="next" onclick="nextSlide()">&#10095;</div>
+                  </div>
+
+
+
+                <div class="content">
+                    <ul class="content-list">
+                        <li class="content-list_item product-name">Active2/N</li>
+                        <li class="content-list_item desc">Компьютерный стол</li>
+                        <li class="content-list_item sale">34.990р</li>
+                        <li class="content-list_item choice-colors">Выберите цвет</li>
+                        <li class="content-list_item colors-block">
+                            <ul class="list-color">
+                                <li class="circle black"></li>
+                                <li class="circle yellow"></li>
+                                <li class="circle red"></li>
+                            </ul>
+                        </li>
+                        <li class="content-list_item">
+                            <div class="count-block">
+                                <label class="quantity-span" for="quantity" >Количество</label>
+                                <input class="quantity-input" type="number" id="quantity" name="quantity" min="1" value="1">
+                            </div>
+                        </li>
+                        <li class=" content-list_item card">
+                            <button class="btn-card">Add to card</button>
+                        </li>
+                        <li class="content-list_item">
+                            <div class="border">
+                                
+                            </div>
+                        </li>
+                        <li class="content-list_item">
+                            <div class="available-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M400-304 240-464l56-56 104 104 264-264 56 56-320 320Z"/></svg>
+                                <span class="span-available">Есть в наличии</span>
+                            </div>
+                        </li>
+                        <li class="content-list_item warranty">Гарантия: 2 года</li>
+                        <li class="content-list_item delivery">Доставка: 18 декабря</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="descript-info">
+            <h2 style="font-size: 32px; margin-bottom: 10px;">Описание</h2>
+            <p style="font-size: 20px; margin-bottom: 40px;" >Generic Comfort Activ2/N – компьютерный стол с настраиваемой по высоте столешницей. Регулировка
+                 осуществляется при помощи механизма с одним электромотором в диапазоне 70-118 см. За счет этого работать за компьютером теперь можно не только сидя, но и стоя. Специальная эргономичная ниша в передней части столешницы позволяет полностью положить
+                 локти на стол, что предотвращает усталость рук при длительной работе за компьютером.
+            </p>
+            <h2 style="font-size: 32px; margin-bottom: 20px;" >Общие характеристики</h2>
+            <ul class="specifications-list">
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Марка</p>
+                        <p>Generic Comfort</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Серия</p>
+                        <p>Active2</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Цвет</p>
+                        <p>Черный</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Размеры столешницы</p>
+                        <p>130x85 см</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Размеры ниши в столешнице</p>
+                        <p>Трапеция с основаниями 40 и 55 см</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Регулировка по высоте</p>
+                        <p>70-118 см</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Вес нетто</p>
+                        <p>42 кг</p>
+                    </div>
+                </li>
+                <li class="specifications-list_item">
+                    <div class="model specifications-flex">
+                        <p>Гарантия	</p>
+                        <p>2 года</p>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
